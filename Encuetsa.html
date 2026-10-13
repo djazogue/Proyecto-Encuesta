@@ -1,0 +1,86 @@
+<!DOCTYPE html> 
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>HOME</title>
+</head>
+<body>
+    <h1>Formulario Satisfacción de Visita</h1>
+    <p>Califique su experiencia de las Termas Papallacta</p>
+    <form>
+        <label for="Nombre">1. Nombre:</label><br>
+            <input type="text" id="Nombre" name="Nombre"><br>
+
+
+        <label>2. ¿Es la primera vez que visitas las termas?</label><br>
+            <input type="radio" id="primera_si" name="primera_vez" value="si">
+                <label for="primera_si">Sí</label><br>
+                <input type="radio" id="primera_no" name="primera_vez" value="no">
+                <label for="primera_no">No</label><br><br>
+
+
+        <label>3. ¿La temperatura del agua en las piscinas fue de tu agrado?</label><br>
+            <input type="radio" id="temp_excelente" name="temperatura" value="excelente">
+                <label for="temp_excelente">Excelente</label><br>
+                <input type="radio" id="temp_buena" name="temperatura" value="buena">
+                <label for="temp_buena">Buena</label><br>
+            <input type="radio" id="temp_regular" name="temperatura" value="regular">
+                <label for="temp_regular">Regular / Muy fría</label><br><br>
+
+        <label>4. ¿Qué otros servicios consumiste durante tu estadía?</label><br>
+            <input type="radio" id="restaurante" name="servicio" value="restaurante">
+                <label for="restaurante">Restaurante / Cafetería</label><br>
+            <input type="radio" id="lockers" name="servicio" value="lockers">
+                <label for="lockers">Alquiler de lockers / vestidores</label><br>
+            <input type="radio" id="masajes" name="servicio" value="masajes">
+                <label for="masajes">Tratamientos de masajes</label><br><br>
+
+
+        <label>5. ¿Qué piscinas o áreas utilizaste hoy?</label><br>
+             <input type="checkbox" id="termales" name="area" value="termales">
+                <label for="termales">Piscinas termales públicas</label><br>
+            <input type="checkbox" id="fria" name="area" value="fría">
+                <label for="fria">Piscina de agua fría del río</label><br>
+            <input type="checkbox" id="spa_piscinas" name="area" value="spa">
+                <label for="spa_piscinas">Piscinas del área de Spa</label><br><br>
+
+        
+        <label for="ciudad">6. ¿De qué ciudad o país nos visitas?</label><br>
+         <input type="text" id="ciudad" name="ciudad"><br><br>
+
+
+
+        <label>7. ¿Cómo calificas la limpieza de las duchas y baños?</label><br>
+            <input type="radio" id="limpieza_limpio" name="limpieza" value="limpio">
+                <label for="limpieza_limpio">Muy limpio</label><br>
+            <input type="radio" id="limpieza_aceptable" name="limpieza" value="aceptable">
+                <label for="limpieza_aceptable">Aceptable</label><br>
+            <input type="radio" id="limpieza_sucio" name="limpieza" value="sucio">
+                <label for="limpieza_sucio">Necesita mejorar</label><br><br>
+        
+        <label>8. ¿Qué aspectos de la atención te gustaron más?</label><br>
+            <input type="checkbox" id="atencion_rapida" name="gusto_atención" value="rapidez">
+                <label for="atencion_rapida">Rapidez en la entrada</label><br>
+            <input type="checkbox" id="atencion_amable" name="gusto_atención" value="amabilidad">
+                <label for="atencion_amable">Amabilidad del personal</label><br>
+            <input type="checkbox" id="atencion_seguridad" name="gusto_atención" value="seguridad">
+                <label for="atencion_seguridad">Presencia de salvavidas / personal</label><br><br>
+        
+        
+        <label>9. ¿Recomendarías las Termas de Papallacta a tus amigos o familiares?</label><br>
+             <input type="radio" id="rec_si" name="recomendar" value="si">
+                <label for="rec_si">Sí, totalmente</label><br>
+             <input type="radio" id="rec_talvez" name="recomendar" value="tal_vez">
+                 <label for="rec_talvez">Tal vez</label><br>
+             <input type="radio" id="rec_no" name="recomendar" value="no">
+                 <label for="rec_no">No</label><br><br>
+        
+        
+        <label for="comentarios">10. Déjanos una sugerencia para mejorar tu próxima visita:</label><br>
+            <textarea id="comentarios" name="comentarios"></textarea><br><br>
+
+        <button type="submit">Enviar</button>
+    </form>
+
+</body>
+</html>
